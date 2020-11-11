@@ -71,12 +71,12 @@ Here is a table with the `endpoint` descriptions:
 | Add a Lesson         | /api/lessons      | POST   | the new Lesson   |
 | View list of Lessons | /api/lessons      | GET    | array of Lessons |
 | View Lesson details  | /api/lessons/{id} | GET    | a Lesson         |
-| Update Lesson        | /api/lessons/{id} | PATCH  | updated Lesson   |
+| Update Lesson        | /api/lessons/{id} | PUT    | updated Lesson   |
 | Remove a Lesson      | /api/lessons/{id} | DELETE | deleted Lesson   |
 | Add a Squad          | /api/squad        | POST   | the new Squad    |
 | View list of Squads  | /api/squads       | GET    | array of Squads  |
 | View Squad details   | /api/squads/{id}  | GET    | a Squad          |
-| Update Squad         | /api/squads/{id}  | PATCH  | updated Squad    |
+| Update Squad         | /api/squads/{id}  | PUT    | updated Squad    |
 | Remove a Squad       | /api/squads/{id}  | DELETE | deleted Squad    |
 
 ### PROGRESSION 3 | POPULATE THE DATA
